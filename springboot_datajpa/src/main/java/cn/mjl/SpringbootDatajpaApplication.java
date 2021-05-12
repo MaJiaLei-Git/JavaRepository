@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;
 
 @SpringBootApplication
-@EnableCaching
+@EnableCaching  //使用缓存
 public class SpringbootDatajpaApplication {
 
     public static void main(String[] args) {
